@@ -1,5 +1,5 @@
 server:
-  port: 10010
+  port: 10013
 spring:
   application:
     name: leyou-gateway
