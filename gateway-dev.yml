@@ -4,7 +4,7 @@ spring:
   application:
     name: leyou-gateway
   rabbitmq:
-    host: 192.168.179.110
+    host: 192.168.179.112
     username: leyou
     password: leyou
     virtual-host: /leyou
