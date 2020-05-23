@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: upload-service
+  rabbitmq:
+    host: 192.168.179.110
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
+    template:
+      exchange: leyou.item.exchange
+    publisher-confirms: true
   servlet:
     multipart:
       max-file-size: 5MB # 限制文件上传的大小
